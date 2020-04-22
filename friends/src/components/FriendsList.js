@@ -35,9 +35,9 @@ render() {
             {this.state.friends.map(item => {
                 return (
                     <>
-                    <h1>{item.name}</h1>
-                    <h1>{item.age}</h1>
-                    <h1>{item.email}</h1>
+                    <h2>{item.name}</h2>
+                    <h4>{item.age}</h4>
+                    <h4>{item.email}</h4>
                     </>
                 )
             })}
