@@ -20,7 +20,6 @@ class AddFriend extends React.Component {
   };
 
   submit = e => {
-    e.preventDefault();
     axiosWithAuth()
       .post('/api/friends', this.state.addFriend)
       .then(res => {
